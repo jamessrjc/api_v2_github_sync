@@ -16,7 +16,7 @@ then
 else
     mkdir -p $root_path$env
     cd $root_path
-    git clone https://bomdicsw:8a2f18dd1438acab59fd0c4fbcd114c440f0b29a@github.com/bOMDIC/HermesGM.git $env
+    git clone https://bomdicsw:947b6f555248e7dc19b7f48e99d7c356acba5ce8@github.com/bOMDIC/HermesGM.git $env
 
     #cd $root_path$env
     #git checkout $git_branch
