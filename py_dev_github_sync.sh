@@ -16,6 +16,7 @@ then
 else
     mkdir -p $root_path$env
     cd $root_path
+    git config --global --unset credential.helper
     git clone https://bomdicsw:a230a23f882027c80d9c070393ba97066d224267@github.com/bOMDIC/HermesGM.git $env
 
     #cd $root_path$env
