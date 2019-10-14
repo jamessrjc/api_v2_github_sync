@@ -16,9 +16,9 @@ then
 else
     mkdir -p $root_path$env
     cd $root_path
-    git config --global --unset user.signingkey
+    #git config --global --unset user.signingkey
     #git config --global --unset credential.helper
-    git clone https://bomdicsw:1884b88625a92e18c5e9917b1a1d59050536439c@github.com/bOMDIC/HermesGM.git $env
+    #git clone https://bomdicsw:1884b88625a92e18c5e9917b1a1d59050536439c@github.com/bOMDIC/HermesGM.git $env
 
     #cd $root_path$env
     #git checkout $git_branch
